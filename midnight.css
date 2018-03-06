@@ -3088,6 +3088,7 @@ tr {
 
 table.forum_post td {
     border: 1px solid #464646;
+    background: url(images/pattern.png);
 }
 
 a {

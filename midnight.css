@@ -3349,3 +3349,8 @@ ol.bjqs-markers li a:hover {
 p.bjqs-caption {
     background: rgba(7, 7, 7, 0.71);
 }
+
+#settings_sections.fixed {
+    position: fixed;
+    top: 80px;
+}

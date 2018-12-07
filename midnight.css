@@ -1577,8 +1577,7 @@ body {
     font-family: Roboto, tahoma, helvetica, sans-serif;
     font-size: 12px;
     color: #d8d8d8;
-    background: url(https://raw.githubusercontent.com/LeandroPelegrini/tema-midnight/master/images/pattern.png) repeat scroll 0 0 #1b1b1d!important;
-    background-color: #111!important;
+    background: url(https://raw.githubusercontent.com/LeandroPelegrini/tema-midnight/master/images/pattern.png) repeat scroll 0 0 #111!important;
 
 }
 
@@ -1815,7 +1814,7 @@ ul.thin li {
 }
 
 #menu {
-    background-color: #333;;
+    background-image: linear-gradient(141deg, #1f1f1f 0%, #383838 51%, #272727 75%);
     position: fixed;
     top: 0px;
     width: 100%;
@@ -2009,10 +2008,16 @@ ul.thin li {
 }
 
 #searchbars ul {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
+      margin: 0 auto;
+      /* display: block; */
+      text-align: center;
+      background-image: linear-gradient(140deg, #1f1f1f7a 0%, #38383885 51%, #2727277a 75%);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      box-shadow: 0px 0px 15px 0px #111;
 }
+
+
 
 #searchbars ul li {
     display: inline;

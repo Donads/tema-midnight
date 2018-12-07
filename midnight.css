@@ -672,7 +672,7 @@ p.min_padding {
 
 .sidebar {
     float: right;
-    position: relative;
+    position: inherit;
     width: 270px;
 }
 
@@ -2205,7 +2205,7 @@ p.min_padding {
 
 .sidebar {
     float: right;
-    position: relative;
+    position: inherit;
     width: 270px;
 }
 

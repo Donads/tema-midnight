@@ -283,14 +283,6 @@ ul.thin li {
 }
 
 #menu {
-    background-color: rgba(17, 25, 33, 0.76);
-    position: absolute;
-    top: 205px;
-    width: 100%;
-    min-width: 950px;
-    text-align: center;
-    font-size: 13px;
-    z-index: 1001;
 }
 
 #centertopmenu {
@@ -507,8 +499,8 @@ ul.thin li {
 }
 
 #alerts {
-    margin-top: -100px;
-    margin-bottom: -95px;
+    margin-top: 135px;
+    /* margin-bottom: -95px; */
     padding: 10px 0px;
 }
 
@@ -1572,13 +1564,18 @@ html {
 
 body {
     width: 100%;
-    margin-top: 55px;
-    min-width: 950px;
+    margin-top: 28px;
+    min-width: 951px;
     font-family: Roboto, tahoma, helvetica, sans-serif;
     font-size: 12px;
     color: #d8d8d8;
     background: url(https://raw.githubusercontent.com/LeandroPelegrini/tema-midnight/master/images/pattern.png) repeat scroll 0 0 #111!important;
+}
 
+#wrapper{
+
+   background-color:#272727;
+   height:300px;
 }
 
 /* Common elements */
@@ -1776,11 +1773,14 @@ ul.thin li {
 #header {
     width: 100%;
     padding: 0px 0 0 0;
+    height: 270px;
+    /* padding-bottom: 49px; */
+    display: block;
 }
 
 #content {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 95px;
     width: 100%;
     overflow: hidden;
 }
@@ -1797,7 +1797,8 @@ ul.thin li {
 
 #logo {
     width: 100%;
-    height: 370px;
+    height: 340px;
+    margin-bottom: 59px;
     margin: 0 auto;
     background: url('images/banner-natal.png') no-repeat top;
 }
@@ -1814,19 +1815,20 @@ ul.thin li {
 }
 
 #menu {
-    background-image: linear-gradient(141deg, #1f1f1f 0%, #383838 51%, #272727 75%);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    text-align: center;
-    font-size: 13px;
-    z-index: 1001;
+    background: #272727;
+    width: 965px;
+    height: 33px;
+    align-items: center;
+    flex-direction: row;
+    margin: -135px auto;
 }
 
 #centertopmenu {
     width: 745px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 62px;
+    /* z-index: 99; */
 }
 
 #menu ul li a.active,
@@ -1840,6 +1842,7 @@ ul.thin li {
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     float: left;
+    z-index: 999;
 }
 
 #menudrop ul {
@@ -1847,17 +1850,18 @@ ul.thin li {
     position: relative;
     float: left;
     margin: 0;
-    padding: 0
+    padding: 0;
+    z-index: 99999;
 }
 
 #menudrop ul a {
-    display: block;
+    /* display: block; */
     color: #adadad;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 32px;
-   /* padding: 0 15px; */
+    /* text-decoration: none; */
+    /* font-weight: 700; */
+    /* font-size: 12px; */
+    /* line-height: 32px; */
+    /* padding: 0 15px; */
 }
 
 #menudrop ul a:hover,
@@ -1902,9 +1906,9 @@ ul.thin li {
     border-bottom: 1px solid #151515;
     float: none;
     width: 145px;
-    height: 15px;
-    margin-top: 1.9px;
-    margin-bottom: 0px;
+    height: 20px;
+    margin-top: 5px;
+    /* margin-bottom: -5px; */
 }
 
 #menudrop ul ul li:hover,
@@ -1935,14 +1939,14 @@ ul.thin li {
 #userinfo {
     background-color: #1e1e1e;
     position: fixed;
-    top: 32px;
+    top: 0px;
     padding: 4px 0px;
     width: 100%;
     color: #aeaeae;
     text-align: center;
     font-size: 0.9em;
     box-shadow: 0px 5px 10px 0px black;
-    z-index: 1000;
+    z-index: 99999999;
 }
 
 #userinfo img {
@@ -1990,11 +1994,11 @@ ul.thin li {
 
 #searchbars {
     position: absolute;
-    top: 165px;
+    top: 192px;
     width: 100%;
     text-align: center;
-    padding: 4px 0px;
-        margin-top: 110px;
+    padding: 3px 0px;
+    margin-top: 43px;
 }
 
 #searchbars input {
@@ -2398,6 +2402,10 @@ table.slice {
 
 .hidden {
     display: none;
+    /* background-color: #272727; */
+    /* width: 100%; */
+    /* height: 500px; */
+    /* z-index: -100000000; */
 }
 
 /* Layout (home page) */

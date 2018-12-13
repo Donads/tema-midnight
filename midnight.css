@@ -3368,7 +3368,7 @@ p.bjqs-caption {
 
 /* NEVE NOVA */
 
-#extra1:before, #extra1:after {
+/* #extra1:before, #extra1:after {
   content: '';
   display: block;
   position: absolute;
@@ -3436,4 +3436,4 @@ p.bjqs-caption {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-}
+} */

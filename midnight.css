@@ -225,7 +225,7 @@ ul.thin li {
 /* Layout (Every page) */
 
 #header {
-    background: url('images/patternback-2006.png') repeat-x top center;
+    background-color: #222222;
     width: 100%;
     padding: 0px 0 0 0;
 }

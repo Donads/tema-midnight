@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500,100,700,400,300);
 
-.fancybox-lock body {
-    overflow: visible !important;
-}
-
 /* Global */
 * {
     padding: 0em;
@@ -250,7 +246,7 @@ ul.thin li {
     margin: auto;
     margin-top: 100px;
     width: 100%;
-    overflow: hidden;
+    overflow: visible !important;
 }
 
 
@@ -1781,7 +1777,7 @@ ul.thin li {
     margin: auto;
     margin-top: 95px;
     width: 100%;
-    overflow: hidden;
+    overflow: visible !important;
 }
 
 #footer {
@@ -3444,7 +3440,3 @@ p.bjqs-caption {
             transform: translateY(0);
   }
 } */
-
-.fancybox-lock body {
-    overflow: visible !important;
-}

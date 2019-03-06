@@ -1,4 +1,8 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,700,400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,700,400,300);
+
+.fancybox-lock body {
+    overflow: visible !important;
+}
 
 /* Global */
 * {
@@ -3440,3 +3444,7 @@ p.bjqs-caption {
             transform: translateY(0);
   }
 } */
+
+.fancybox-lock body {
+    overflow: visible !important;
+}
